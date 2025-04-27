@@ -45,8 +45,8 @@ Le déploiement est entièrement paramétrable via un fichier `variables.tf`.
 
 1. Clonez ce répertoire :
 ```bash
- git clone https://github.com/votre-utilisateur/votre-repo.git
- cd votre-repo
+ git clone https://github.com/kingsleyDeve/terraform-aws.git
+ cd terraform-aws
 ```
 
 2. Initialisez Terraform :
