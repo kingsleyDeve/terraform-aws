@@ -12,18 +12,18 @@ Ce projet Terraform automatise la création d'une infrastructure simple sur AWS 
 - Un disque racine EBS personnalisable.
 - Un groupe de sécurité permettant SSH, HTTP et HTTPS.
 
-Le déploiement est entièrement paramétrable via un fichier `variables.tf`.
+Le déploiement est entièrement paramétrable via un fichier `variable.tf`.
 
 ---
 
 ## 📂 Fichiers
 
 - **`main.tf`** : contient toute la logique de déploiement de l'infrastructure.
-- **`variables.tf`** : définit les variables personnalisables pour l'instance EC2 et le volume EBS.
+- **`variable.tf`** : définit les variable personnalisables pour l'instance EC2 et le volume EBS.
 
 ---
 
-## 📝 Variables disponibles
+## 📝 variable disponibles
 
 | Nom         | Type    | Description                                  | Valeur par défaut |
 |-------------|---------|----------------------------------------------|--------------------|
@@ -54,7 +54,7 @@ Le déploiement est entièrement paramétrable via un fichier `variables.tf`.
  terraform init
 ```
 
-3. Personnalisez les variables si besoin dans `variables.tf` ou via la ligne de commande.
+3. Personnalisez les variable si besoin dans `variable.tf` ou via la ligne de commande.
 
 4. Lancez le plan pour vérifier :
 ```bash
