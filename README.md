@@ -1,4 +1,4 @@
-**# AWS EC2 Terraform Deployment
+# AWS EC2 Terraform Deployment
 
 ## 🚀 Description
 
